@@ -32,7 +32,6 @@
     }
   }
   
-
   </script>
   
   <form action="" method="post" class="form">
