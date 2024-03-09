@@ -6,8 +6,6 @@
   }
   
   function email() {
-    console.log(document.querySelector('#email').value.length)
-
     if (document.querySelector('#name').value.length < 3) {
       alert( "Preencha campo NOME COMPLETO!" );
       document.querySelector('#name').focus();
