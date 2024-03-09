@@ -1,0 +1,32 @@
+.about {
+  background-color: var(--color-primary-dark);
+
+  &__container {
+    display: flex;
+    flex-direction: column-reverse;
+    
+    
+    @media only screen and (min-width: 1024px){
+      flex-direction: row;
+
+      div + div {
+        margin-left: 100px;
+      }
+    }
+  }
+
+  &__img {
+    width: 50%;
+    @media only screen and (max-width: 1024px){
+      width: 100%;
+    }
+
+    img {
+      float: right;
+      width: 80%;
+      @media only screen and (max-width: 1024px){
+        width: 100%;
+      }
+    }
+  }
+}

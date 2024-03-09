@@ -1,0 +1,78 @@
+@import './copyright';
+
+.footer {
+  background-color: var(--color-primary-dark);
+  color: var(--color-light);
+  padding-block: 80px 100px;
+  position: relative;
+  text-align: center;
+
+  &__container {
+    > :nth-child(2),
+    > :nth-child(3) {
+      display: none;
+    }
+  }
+
+  &__social {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+    li {
+      align-items: center;
+      aspect-ratio: 1;
+      background-color: var(--color-primary);
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      transition: all 0.3s;
+      width: 56px;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+
+      + li {
+        margin-left: 15px;
+      }
+    }
+
+    img {
+      aspect-ratio: 1;
+      width: 26px;
+    }
+  }
+
+  @media only screen and (min-width: 1024px){ 
+    text-align: initial;
+
+    &__container {
+      display: flex;
+      justify-content: space-between;
+      
+      > :nth-child(1) {
+        width: 33%;
+        margin-right: 12%;
+      }
+      
+      > :nth-child(2),
+      > :nth-child(3) {
+        display: block;
+        width: 25%;
+      }
+
+    }
+    
+    &__help, 
+    &__menu {
+      li + li {
+        margin-top: 17px;
+      }
+    }
+
+    &__social {
+      justify-content: flex-start;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+/* ------------------------------------------------------------ *\
+  Fonts.
+  Add your custom fonts here. You can use a tool to convert your
+  fonts in to web format (woff, woff2). To do it you can use
+  https://transfonter.org
+\* ------------------------------------------------------------ */
+
+@font-face {
+  font-display: swap;
+  font-family: 'Fugaz One';
+  font-style: normal;
+  font-weight: bold;
+  src: url('./FugazOne.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Bold.woff2') format('woff2'),
+      url('Roboto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Light.woff2') format('woff2'),
+      url('Roboto-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Regular.woff2') format('woff2'),
+      url('Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Thin.woff2') format('woff2'),
+      url('Roboto-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}

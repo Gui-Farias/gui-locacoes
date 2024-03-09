@@ -1,0 +1,30 @@
+@import './menu';
+@import './menu-mobile';
+
+
+.header {
+  background-color: var(--color-bg-dark);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  color: var(--color-light);
+  padding-block: 6px 2px;
+  position: relative;
+  margin-inline: auto;
+  width: 100%;
+  z-index: 100;
+
+  &__logo {
+    width: 90px;
+    height: auto;
+
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+  
+  .container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+}

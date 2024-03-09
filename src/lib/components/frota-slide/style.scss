@@ -1,0 +1,58 @@
+.frota {
+  margin-top: 70px;
+
+  .section-title {
+    margin-inline: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    
+    > .title {
+      margin-inline: auto;
+    }
+  }
+  
+  
+  &__swiper {
+    position: relative;
+    margin-inline: auto;
+    width: 80%;
+  }
+
+  &__prev {
+    cursor: pointer;
+    position: absolute;
+    left: -90px;
+    top: 40%;
+  }
+
+  &__next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    right: -90px;
+  }
+
+  &__btn {
+    display: block;
+    text-align: center;
+    margin-block: 50px;
+  }
+
+  @media only screen and (max-width: 768px){
+    &__prev,
+    &__next {
+      display: none;
+    }
+  }
+}
+
+.card {
+  &__body {
+    margin-top: 20px;
+  }
+
+  &__img {
+    aspect-ratio: 16 / 12;
+    max-width: 100%;
+  }
+}

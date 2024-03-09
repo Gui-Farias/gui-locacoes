@@ -1,0 +1,10 @@
+.cta {
+  background-color: var(--color-secondary);
+  color: var(--color-light);
+  padding-block: 60px;
+
+  .container {
+    display:  flex;
+    justify-content: space-between;
+  }
+}

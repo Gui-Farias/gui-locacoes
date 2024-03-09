@@ -1,0 +1,56 @@
+
+.b-frota {
+  margin-bottom: 90px;
+  &__title {
+    margin: 50px auto;
+  }
+  
+
+  &__categories {
+    margin-bottom: 30px;
+
+    + button {
+      margin-left: 40px;
+    }
+  }
+
+
+  &__btn {
+    border: none;
+    background-color:var(--color-secondary);
+    color: var(--color-white);
+    cursor: pointer;
+    outline: none;
+    padding: 12px 16px;
+    text-transform: uppercase;
+    
+    &:hover {
+      background-color:var(--color-primary);
+    }
+  }
+
+  .active {
+    background-color:var(--color-primary);
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+    justify-items: left;
+  }
+
+  .card {
+    display: none;
+    max-width: 500px;
+    
+    img {
+      aspect-ratio: 16/ 12;
+      width: 100%;
+    }
+
+    &__show {
+      display: block;
+    }
+  }
+}

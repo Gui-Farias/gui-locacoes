@@ -1,0 +1,48 @@
+.section-title {
+  max-width: 500px;
+
+  &--secondary {
+    .title {
+      color: var(--color-secondary);
+    }
+
+    .title--intro {
+      color: var(--color-light);
+    }
+
+    .paragraph {
+      color: var(--color-light);
+    }
+  }
+
+  .title {
+    animation: toDown 1s ease-out;
+  }
+
+  .title--intro {
+    animation: toRight 1s ease-out 0.2s forwards;
+    opacity: 0;
+  }
+  
+  .btn {
+    animation: toUp 0.3s ease-out 1s forwards;
+    opacity: 0;
+  }
+
+  .paragraph {
+    animation: showOpacity 0.5s ease-in-out 0.5s forwards;
+    opacity: 0;
+  }
+  
+  @media only screen and (max-width: 1023px){ 
+    margin-inline: auto;
+  }
+
+  .title {
+    margin-block: 15px 30px;  
+  }
+
+  .btn {
+    margin-top: calc(20px + 1.5vw);
+  }
+}

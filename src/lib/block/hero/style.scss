@@ -1,0 +1,14 @@
+.hero {
+  align-items: center;
+  background: url(../../images/bg-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--color-light);
+  display: flex;
+  flex-direction: column;
+  height: 73vh;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}

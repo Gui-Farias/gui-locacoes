@@ -1,0 +1,16 @@
+.nossa-frota {
+
+  &__intro {
+    text-align: center;
+
+    .title {
+      margin-inline: auto;
+   }
+  }
+
+  &__btn {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+  }
+}
