@@ -53,6 +53,9 @@ onMount(() => {
 				<li class="header__item" class:active={$page.url.pathname === '/contact'}>
 					<a href="/contact">Contato</a>
 				</li>
+				<li class="header__item">
+					<a href="https://github.com/Gui-Farias/gui-locacoes" target="_blank">GitHub</a>
+				</li>
 			</ul>
 		</nav>
 
